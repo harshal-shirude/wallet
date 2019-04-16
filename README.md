@@ -2,7 +2,10 @@
 Small project for mobile wallet APIs.
 
 The project is written in Java using Spring Boot and Spring MVC frameworks.
-MySQL is used as data storage.
+MySQL is used as data storage.<br>
+This project provides APIs to manage your wallet. See https://github.com/harshal-shirude/wallet/blob/master/README.md#apis for more details.<br>
+Minimum/Maximum amount allowed at any point in time in wallet can be configured through `wallet.min_balance` and `wallet.max_balance` properties in `application.properties` file.<br>
+Default values are `-50000.00` and `100000.00` respectively.
 
 ### Database:
 There are 2 tables in the database,
