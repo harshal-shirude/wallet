@@ -138,13 +138,13 @@ HttpStatus: 400 (BAD_REQUEST)
 
 #### 4. Get wallet balance:
 Description: Get wallet balance by wallet id. Returns `400 (BAD_REQUEST)` if wallet does not exists or wallet is deactivated.
-API: /wallet/2
+API: /wallet/{walletId}
 Method: GET<br>
 Response:
 ```
 HttpStatus = 200 (OK)
 {
-    "data": 3211.5,
+    "data": 10,
     "status": "SUCCESS"
 }
 ```
